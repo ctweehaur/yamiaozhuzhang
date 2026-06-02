@@ -1,3 +1,7 @@
+/**
+ * 互动古文教学平台 - 简答题特训专属题库 (大马中学完全对齐版)
+ */
+
 const shortQData = [
     {
         id: "Q1",
@@ -9,7 +13,7 @@ const shortQData = [
             "2. 说明他当时以为自己做成了了不起的大事，心情非常得意和自豪。"
         ],
         sPy: [
-            "tí qǔ chū nóng fū huí jiā hòu duì jiā rén shuō de yuán huà nèi róng",
+            "tí qǔ chū nóng fū huí jiā hòu duì jiā rén shuō de yuán huà nèi róng hǎn lèi hé yāo gōng",
             "shuō míng tā dāng shí yǐ wéi zì jǐ zuò chéng le liǎo bù qǐ de dà shì xīn qíng fēi cháng dé yì hé zì háo"
         ],
         sEn: "Step 1: Extract the farmer's dialogue upon returning home.<br>Step 2: Describe his smug and proud mood, believing he achieved a great feat.",
@@ -27,8 +31,8 @@ const shortQData = [
             "2. 对应关键词“苗则槁矣”，写出禾苗最终全部干枯死亡的悲惨结果。"
         ],
         sPy: [
-            "duì yìng kè wén zhōng de guān jiàn cí shuō míng ér zǐ jí jí máng máng pǎo dào tián lǐ qù kàn",
-            "duì yìng guān jiàn cí xiě chū hé miáo zuì zhōng quán bù gān kū sǐ wáng de bēi cǎn jié guǒ"
+            "duì yìng kè wén zhōng de guān jiàn cí qū ér wǎng shì zhī shuō míng ér zǐ jí jí máng máng pǎo dào tián lǐ qù kàn",
+            "duì yìng guān jiàn cí miáo zé gǎo yǐ xiě chū hé miáo zuì zhōng quán bù gān kū sǐ wáng de bēi cǎn jié guǒ"
         ],
         sEn: "Step 1: Translate 'qū ér wǎng', showing the son rushed to the field.<br>Step 2: Translate 'miáo zé gǎo yǐ', stating the crops had completely withered and died.",
         aZh: "农夫的儿子听了父亲的话后，急急忙忙地快步跑到田里去查看。最终，他看到田里的禾苗已经全部干枯、枯萎死亡了。",
@@ -38,19 +42,19 @@ const shortQData = [
     {
         id: "Q3",
         qZh: "文章最后提到的“不耘苗者”指的是哪一种人？他们对待禾苗是什么态度？",
-        qPy: "wén zhāng zuì hòu tí dào de bù yún miáo zhě zhǐ de shì nǎ yī zhǒng rén tā men duì dài hé miáo shì shén me tài dù",
+        qPy: "wén zhāng zuì hòu tí dào de bù yún miáo zhě zhǐ de ... nǎ yī zhǒng rén tā men duì dài hé miáo shì shén me tài dù",
         qEn: "Who are the 'non-weeders' mentioned at the end of the text? What is their attitude toward the crops?",
         sZh: [
             "1. 解释“不耘苗”的意思（不给禾苗锄草的人）。",
             "2. 说明这群人认为反正帮了也没用（以为无益），因此对待禾苗采取完全放弃、丢下不管的懒惰态度。"
         ],
         sPy: [
-            "jiě shì bù yún miáo de yì si",
-            "shuō míng zhè qún rén rèn wéi fǎn zhèng bāng le yě méi yòng yīn cǐ duì dài hé miáo cǎi qǔ wán quán fàng qì diū xià bù guǎn de lǎn duò tài dù"
+            "jiě shì bù yún miáo de yì si bù gěi hé miáo chú cǎo de rén",
+            "shuō míng zhè qún rén rèn wéi fǎn zhèng bāng le yě méi yòng yǐ wéi wú yì yīn cǐ duì dài hé miáo cǎi qǔ wán quán fàng qì diū xià bù guǎn de lǎn duò tài dù"
         ],
         sEn: "Step 1: Explain the meaning of 'bù yún miáo' (those who don't weed).<br>Step 2: Describe their lazy attitude of complete abandonment, believing effort is futile.",
         aZh: "“不耘苗者”指的是那些不给禾苗锄草和照顾农田的人。他们认为给禾苗提供帮助是没有好处的，因此采取了完全放弃、丢下不管的消极懒惰态度。",
-        aPy: "bù yún miáo zhě zhǐ de shì nà xiē bù gěi hé miáo chú cǎo hé zhào gù nóng tián de rén tā men rèn wéi gěi hé miáo tí gōng bāng zhù shì méi yǒu hǎo chù de yīn cǐ cǎi qǔ le wán quán fàng qì diū xià bù guǎn de xiāo jí lǎn duò tài dù",
+        aPy: "bù yún miáo zhě zhǐ de ... nà xiē bù gěi hé miáo chú cǎo hé zhào gù nóng tián de rén tā men rèn wéi gěi hé miáo tí gōng bāng zhù shì méi yǒu hǎo chù de yīn cǐ cǎi qǔ le wán quán fàng qì diū xià bù guǎn de xiāo jí lǎn duò tài dù",
         aEn: "The 'non-weeders' refer to people who refuse to weed or tend to the crops. They believe helping the fields grow is pointless, thus maintaining a lazy and passive attitude of total neglect."
     },
     {
@@ -63,8 +67,8 @@ const shortQData = [
             "2. 说明为什么“害之”（把根部拉断、脱离土壤，彻底断绝了禾苗的生命，害死了禾苗）。"
         ],
         sPy: [
-            "shuō míng wèi shén me wú yì",
-            "shuō míng wèi shén me hài zhī"
+            "shuō míng wèi shén me wú yì yìng lā qǐ lái bìng bù néng ràng hé miáo zhēn zhèng zhǎng dà shǔ yú zì qī qī rén",
+            "shuō míng wèi shén me hài zhī bǎ gēn bù lā duàn tuō lí tǔ rǎng chè dǐ duàn jué le hé miáo de shēng mìng hài sǐ le hé miáo"
         ],
         sEn: "Step 1: Explain why it is useless (it creates a fake illusion of growth).<br>Step 2: Explain why it is harmful (it snaps the roots, cutting off nutrients and killing the crops).",
         aZh: "因为把禾苗往上拉并不能让它们真正成长，所以是白费力气、毫无益处的；相反，这样做会把禾苗的根部拉断，使它们脱离土壤吸收不到养分，导致整田的禾苗全部枯死，所以是害了禾苗。",
@@ -82,7 +86,7 @@ const shortQData = [
         ],
         sPy: [
             "yòng shì hé dà mǎ guó zhōng dú zhōng shēng lǐ jiě de zhí bái yù yán tí liàn zhé lǐ zuò rèn hé shì dōu yào zūn xún guī lǜ yī bù yī bù lái bù néng jí yú qiú chéng",
-            "jié hé xué xí shí jì tí chū zhèng miàn zuò fǎ"
+            "jié hé xué xí shí jì tí chū zhèng miàn zuò fǎ bǐ rú dú shū jī zǎn zhī shi yào kào měi tiān jī lěi bù néng wàng xiǎng yī bù dēng tiān"
         ],
         sEn: "Step 1: Summarize the moral plainly: everything must follow its natural course step-by-step; impatience destroys success.<br>Step 2: Connect to studying: accumulating knowledge takes steady daily effort, not instant shortcuts.",
         aZh: "启示我们做任何事情都要尊重客观规律，循序渐进，绝对不能急于求成。就如同学业和积攒学问，必须依靠每天脚踏实地地努力，如果一味地盲目追求速度、寻找不切实际的捷径，最后只会彻底失败。",
